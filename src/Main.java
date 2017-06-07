@@ -7,6 +7,8 @@ import java.util.Scanner;       // import needed to use the Scanner
 public class Main {
 
     public static void main(String[] args) {
+
+        // lol kden
      
         Scanner scan = new Scanner(System.in);      // Reading input from System.in, which is the keyboard
         String s = scan.next();                     // reads in text
