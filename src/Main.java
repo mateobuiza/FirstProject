@@ -21,9 +21,7 @@ public class Main {
         ArrayList<Card> deck = new ArrayList<>();
 
         Card archer = new Card ("Archer", 10, 30);
-
         Card warrior = new Card ("Warrior", 20, 20);
-
         Card kleoTheledge = new Card ("Kleo", 100, 100);
 
         deck.add (archer);
