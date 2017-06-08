@@ -2,8 +2,8 @@
  * Created by Mateo on 07/06/2017.
  */
 public class Card {
-    private String name;
-    private int defence, attack;
+    protected String name;
+    protected int defence, attack;
 
     public Card (String name, int defence, int attack) {
 
