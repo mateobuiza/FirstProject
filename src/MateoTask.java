@@ -18,6 +18,8 @@
  *
  * Create a getter and setter for the 2 fields you created.
  *
+ * Create one object of this class in main, and call all of the methods that you created.
+ *
  */
 public class MateoTask {
 }
