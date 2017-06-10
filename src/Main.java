@@ -21,9 +21,7 @@ public class Main {
         ArrayList<Card> deck = new ArrayList<>();
 
         Card archer = new Card ("Archer", 10, 30);
-
-        Card warrior = new Card ("Warrior", 20, 20);
-
+        Warrior warrior = new Warrior ("Warrior", 20, 20, 20);
         Card kleoTheledge = new Card ("Kleo", 100, 100);
 
         deck.add (archer);
@@ -71,6 +69,25 @@ public class Main {
 
             System.out.println("Player 2 wins");
         }
+
+
+
+
+        //These are objects which are used to create an instance of the class.
+        Test test = new Test("T");
+
+        Test test1 = new Test();
+
+        System.out.println(test.getName());
+
+        System.out.println(test1.getName());
+
+        test.setName("P");
+
+        System.out.println(test.getName());
+
+        Person personz = new Person("Jim", 10, 10, 100);
+
 
 
 
