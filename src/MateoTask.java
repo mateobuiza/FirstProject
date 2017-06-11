@@ -22,4 +22,20 @@
  *
  */
 public class MateoTask {
+
+    public String name;
+    public int age;
+
+    public MateoTask () {
+
+        name = "Mateo";
+        age = 22;
+
+    }
+
+
+
+
+
+
 }
