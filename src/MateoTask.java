@@ -44,9 +44,11 @@ public class MateoTask {
 
     public int getAverage (int age1, int age2, int age3){
 
-        int average;
-        average = (age1 + age2 + age3) /3;
-        return average;
+//        int average;
+//        average = (age1 + age2 + age3) /3;
+//        return average;
+
+        return (age1 + age2 + age3) / 3;
 
     }
 
