@@ -9,10 +9,10 @@ public class Main {
     public static void main(String[] args) {
 
         // lol kden
-     
+
         Scanner scan = new Scanner(System.in);      // Reading input from System.in, which is the keyboard
         String s = scan.next();                     // reads in text
-        
+
         System.out.println("Enter a number: ");     // prints out asking the user to enter a number
         int i = scan.nextInt();                     // reads in a nmber the user types in (must be an int or will stop program)
         System.out.println("The number you put in is: " + i);   // prints out what number the user typed in
@@ -20,29 +20,29 @@ public class Main {
 
         ArrayList<Card> deck = new ArrayList<>();
 
-        Card archer = new Card ("Archer", 10, 30);
-        Warrior warrior = new Warrior ("Warrior", 20, 20, 20);
-        Card kleoTheledge = new Card ("Kleo", 100, 100);
+        Card archer = new Card("Archer", 10, 30);
+        Warrior warrior = new Warrior("Warrior", 20, 20, 20);
+        Card kleoTheledge = new Card("Kleo", 100, 100);
 
-        deck.add (archer);
-        deck.add (warrior);
-        deck.add (kleoTheledge);
+        deck.add(archer);
+        deck.add(warrior);
+        deck.add(kleoTheledge);
 
 
         int defence = 5;
         int attack = 5;
 
-        for(int index = 0; index <= 16; index++)
+        for (int index = 0; index <= 16; index++)
 
         {
 
-            Card npc = new Card ("Fred", defence, attack);
+            Card npc = new Card("Fred", defence, attack);
 
 
             defence = defence + 5;
             attack = attack + 5;
 
-            deck.add (npc);
+            deck.add(npc);
         }
 
 
@@ -63,14 +63,10 @@ public class Main {
 
             System.out.println("Player 1 wins");
 
-        }
-
-        else {
+        } else {
 
             System.out.println("Player 2 wins");
         }
-
-
 
 
         //These are objects which are used to create an instance of the class.
@@ -87,15 +83,13 @@ public class Main {
         System.out.println(test.getName());
 
 
+        MateoTask caller = new MateoTask();
 
+        int average = caller.getAverage(12, 20, 34);
 
+        caller.getSmallest(10, 7, 11);
 
-
-
-
-
-
+        System.out.println(average);
     }
-
 
 }

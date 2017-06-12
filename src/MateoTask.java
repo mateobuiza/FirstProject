@@ -52,7 +52,43 @@ public class MateoTask {
 
     }
 
+    public void getSmallest (int no1, int no2, int no3) {
 
+        int smallest = no1;
+        if (smallest > no2) {
+
+            no2 = smallest;
+        }
+
+        if (smallest > no3){
+
+            no3 = smallest;
+        }
+
+        System.out.println(smallest);
+    }
+
+
+    public void setName(String name) {
+
+        this.name = name;
+    }
+
+    public void setAge (int age){
+
+        this.age = age;
+    }
+
+
+    public String getName() {
+
+        return this.name;
+    }
+
+    public int getAge() {
+
+        return this.age;
+    }
 
 
 }
