@@ -21,7 +21,7 @@ public class Test {
         this.name = name;
     }
 
-    //Methods are written here, outside the constructor.
+    //Methods are written outside the constructor.
     //This method is a getter
     public String getName(){
 

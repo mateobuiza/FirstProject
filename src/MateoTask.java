@@ -7,7 +7,7 @@
  *
  * Create a constructor, without parameters. Set name to equal mateo, and age to equal 22.
  *
- * Create another constructor, which accepts 2 parameters, name and int. Using the parameters, initialise the fields you
+ * Create another constructor, which accepts 2 parameters, string and int. Using the parameters, initialise the fields you
  * created.
  *
  * Create a method that accepts 3 integers in its parameters, works out the average of the three numbers and returns
@@ -25,15 +25,30 @@ public class MateoTask {
 
     public String name;
     public int age;
+    public int average;
 
-    public MateoTask () {
+    public MateoTask() {
 
         name = "Mateo";
         age = 22;
 
     }
 
+    public MateoTask (String name, int age){
 
+        this.name = name;
+        this.age = age;
+
+
+    }
+
+    public int getAverage (int age1, int age2, int age3){
+
+        int average;
+        average = (age1 + age2 + age3) /3;
+        return average;
+
+    }
 
 
 

@@ -86,7 +86,6 @@ public class Main {
 
         System.out.println(test.getName());
 
-        Person personz = new Person("Jim", 10, 10, 100);
 
 
 
