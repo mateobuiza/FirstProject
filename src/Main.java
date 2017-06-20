@@ -21,7 +21,9 @@ public class Main {
         // lol kden
 
         Scanner scan = new Scanner(System.in);      // Reading input from System.in, which is the keyboard
+        System.out.println("Whats your name? ");
         String s = scan.next();                     // reads in text
+        System.out.println("hello, " + s);
 
         System.out.println("Enter a number: ");     // prints out asking the user to enter a number
         int i = scan.nextInt();                     // reads in a nmber the user types in (must be an int or will stop program)
