@@ -6,6 +6,16 @@ import java.util.Scanner;       // import needed to use the Scanner
  */
 public class Main {
 
+
+    /**
+     * new spec
+     *
+     * Create a team of creatures. Make a colleciton of enemy creatures, and randomly choose one to fight your creture.
+     * Give a list to catch, fight or run. player can select any of them. If you run, then pick another monster to fight.
+     * All have different health and names. 10 enemies minimum.
+     * @param args
+     */
+
     public static void main(String[] args) {
 
         // lol kden
